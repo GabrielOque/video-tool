@@ -1,0 +1,175 @@
+{
+  "links": [
+    {
+      "id": 1,
+      "icon": "fa-solid fa-chart-line",
+      "title": "Dashboard"
+    },
+    { "id": 2, "icon": "fa-regular fa-folder", "title": "Videos" },
+    {
+      "id": 3,
+      "icon": "fa-regular fa-circle-play",
+      "title": "Player"
+    },
+    {
+      "id": 4,
+      "icon": "fa-solid fa-chart-simple",
+      "title": "Analytics"
+    },
+    {
+      "id": 5,
+      "icon": "fa-solid fa-gear",
+      "title": "Configuraciones"
+    },
+    {
+      "id": 6,
+      "icon": "fa-regular fa-circle-question",
+      "title": "Ayuda"
+    }
+  ],
+
+  "folders": [
+    {
+      "id": 1,
+      "name": "Afiliado Master",
+      "videos": "8",
+      "size": "7.3 GB",
+      "lastModification": "30/may/2023"
+    },
+    {
+      "id": 2,
+      "name": "BeMaster",
+      "videos": "21",
+      "size": "1.4 GB",
+      "lastModification": "22/jun/2022"
+    },
+    {
+      "id": 3,
+      "name": "Comizzión",
+      "videos": "10",
+      "size": "284 MB",
+      "lastModification": "11/sep/2021"
+    },
+    {
+      "id": 4,
+      "name": "Creador de Contenido",
+      "videos": "2",
+      "size": "4.3 GB",
+      "lastModification": "21/jun/2023"
+    },
+    {
+      "id": 5,
+      "name": "Exportados Wil",
+      "videos": "14",
+      "size": "500 MB",
+      "lastModification": "5/abr/2023"
+    },
+    {
+      "id": 6,
+      "name": "Afiliado Master",
+      "videos": "8",
+      "size": "7.3 GB",
+      "lastModification": "30/may/2023"
+    },
+    {
+      "id": 7,
+      "name": "BeMaster",
+      "videos": "21",
+      "size": "1.4 GB",
+      "lastModification": "22/jun/2022"
+    },
+    {
+      "id": 8,
+      "name": "Comizzión",
+      "videos": "10",
+      "size": "284 MB",
+      "lastModification": "11/sep/2021"
+    },
+    {
+      "id": 9,
+      "name": "Creador de Contenido",
+      "videos": "2",
+      "size": "4.3 GB",
+      "lastModification": "21/jun/2023"
+    },
+    {
+      "id": 10,
+      "name": "Exportados Wil",
+      "videos": "14",
+      "size": "500 MB",
+      "lastModification": "5/abr/2023"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "name": "Entrenamiento.mp4",
+      "videos": "7.3 GB",
+      "size": "04:11:37",
+      "lastModification": "30/may/2023"
+    },
+    {
+      "id": 2,
+      "name": "Salida-al-mercado-versión nueva.mp4",
+      "videos": "1.4",
+      "size": "47:55",
+      "lastModification": "22/jun/2022"
+    },
+    {
+      "id": 3,
+      "name": "Como-cerrar-una-venta.mp4",
+      "videos": "284 MB",
+      "size": "10:12",
+      "lastModification": "11/sep/2021"
+    },
+    {
+      "id": 4,
+      "name": "Crea-un-ticket-valioso.mp4",
+      "videos": "4.3 GB",
+      "size": "03:50:22",
+      "lastModification": "21/jun/2023"
+    },
+    {
+      "id": 5,
+      "name": "Conquista-el-mercado-digital.mp4",
+      "videos": "500 MB",
+      "size": "5:00",
+      "lastModification": "5/abr/2023"
+    },
+    {
+      "id": 6,
+      "name": "Entrenamiento.mp4",
+      "videos": "7.3 GB",
+      "size": "04:11:37",
+      "lastModification": "30/may/2023"
+    },
+    {
+      "id": 7,
+      "name": "Salida-al-mercado-versión nueva.mp4",
+      "videos": "1.4",
+      "size": "47:55",
+      "lastModification": "22/jun/2022"
+    },
+    {
+      "id": 8,
+      "name": "Como-cerrar-una-venta.mp4",
+      "videos": "284 MB",
+      "size": "10:12",
+      "lastModification": "11/sep/2021"
+    },
+    {
+      "id": 9,
+      "name": "Crea-un-ticket-valioso.mp4",
+      "videos": "4.3 GB",
+      "size": "03:50:22",
+      "lastModification": "21/jun/2023"
+    },
+    {
+      "id": 10,
+      "name": "Conquista-el-mercado-digital.mp4",
+      "videos": "500 MB",
+      "size": "5:00",
+      "lastModification": "5/abr/2023"
+    }
+  ]
+}
