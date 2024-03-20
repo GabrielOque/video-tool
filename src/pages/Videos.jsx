@@ -1,4 +1,4 @@
-import TableFolderRow from "../components/TableFolderRow";
+import TableRow from "../components/TableRow";
 import Input from "../components/Input";
 import data from "../mock/mock.json";
 import { useParams, useNavigate } from "react-router-dom";
@@ -47,10 +47,10 @@ const Videos = () => {
                 .toLocaleLowerCase()
                 .includes(inputvalue.toLocaleLowerCase())
             )
-            .map((folder) => (
-              <TableFolderRow
-                key={folder.id}
-                row={folder}
+            .map((video) => (
+              <TableRow
+                key={video.id}
+                row={video}
                 icon={"fa-regular fa-circle-play text-primary mr-2 text-xl"}
               />
             ))}

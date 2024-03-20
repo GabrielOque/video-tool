@@ -14,6 +14,7 @@ const Sidebar = () => {
           onClick={handleNavigate}
           className="object-contain w-1/4 h-1/4 cursor-pointer"
           src="https://i.ibb.co/X8b1YwD/image-removebg-preview-1.png"
+          alt="logo"
         />
       </div>
       <ul className="w-full mt-8">

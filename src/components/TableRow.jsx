@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const TableFolderRow = ({ row, icon }) => {
+const TableRow = ({ row, icon }) => {
   return (
     <tr className="border-b-[2px] cursor-pointer hover:bg-secondary border-solid border-secondary">
       <td className="px-4 py-2">
@@ -19,4 +19,4 @@ const TableFolderRow = ({ row, icon }) => {
   );
 };
 
-export default TableFolderRow;
+export default TableRow;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import Input from "../components/Input";
-import TableFolderRow from "../components/TableFolderRow";
+import TableRow from "../components/TableRow";
 import data from "../mock/mock.json";
 const Folders = () => {
   const [inputvalue, setInputValue] = useState("");
@@ -33,7 +33,7 @@ const Folders = () => {
                 .includes(inputvalue.toLocaleLowerCase())
             )
             .map((folder) => (
-              <TableFolderRow
+              <TableRow
                 key={folder.id}
                 row={folder}
                 icon={"fa-regular fa-folder text-primary mr-2 text-xl"}
