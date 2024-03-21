@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <header className="w-full text-xl">
-      <div className=" flex justify-between">
+      <nav className=" flex justify-between">
         <ul className="flex">
           <li className="text-primary mr-7">
             <button className="flex items-center border-b-[3px] border-solid border-primary">
@@ -32,7 +32,7 @@ const Header = () => {
             </button>
           </li>
         </ul>
-      </div>
+      </nav>
     </header>
   );
 };
