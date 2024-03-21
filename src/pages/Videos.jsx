@@ -12,7 +12,7 @@ const Videos = () => {
     navigate("/");
   };
   return (
-    <div className="h-full w-[83%] bg-white rounded-xl p-10">
+    <section className="h-full w-[83%] bg-white rounded-xl p-10">
       <div className="text-2xl flex h-[52px]">
         <i
           className="fa-solid fa-arrow-left bg-primary text-center p-2 text-white rounded-lg mr-2 h-[40px] cursor-pointer"
@@ -31,7 +31,7 @@ const Videos = () => {
       <table className="mt-10 w-full table-fixed">
         <thead>
           <tr>
-            <td className="px-4 py-2">
+            <td className="px-4 py-2 text-left">
               <input type="checkbox" />
             </td>
             <th className="w-3/12 px-4 py-2 text-left">Nombre</th>
@@ -56,7 +56,7 @@ const Videos = () => {
             ))}
         </tbody>
       </table>
-    </div>
+    </section>
   );
 };
 

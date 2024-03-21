@@ -6,7 +6,7 @@ import data from "../mock/mock.json";
 const Folders = () => {
   const [inputvalue, setInputValue] = useState("");
   return (
-    <div className="h-full w-[83%] bg-white rounded-xl p-10">
+    <section className="h-full w-[83%] bg-white rounded-xl p-10">
       <Header />
       <Input
         placeholder={"Buscar carpeta"}
@@ -16,9 +16,9 @@ const Folders = () => {
       <table className="mt-10 w-full table-fixed">
         <thead>
           <tr>
-            <td className="px-4 py-2">
+            <th className="px-4 py-2 text-left">
               <input type="checkbox" />
-            </td>
+            </th>
             <th className="w-3/12 px-4 py-2 text-left">Nombre</th>
             <th className="w-2/12 px-4 py-2 text-right">Videos</th>
             <th className="w-3/12 px-4 py-2 text-right">Tamaño</th>
@@ -41,7 +41,7 @@ const Folders = () => {
             ))}
         </tbody>
       </table>
-    </div>
+    </section>
   );
 };
 
